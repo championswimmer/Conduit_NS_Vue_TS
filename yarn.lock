@@ -4029,20 +4029,20 @@ nativescript-theme-core@^1.0.4:
   resolved "https://registry.yarnpkg.com/nativescript-theme-core/-/nativescript-theme-core-1.0.4.tgz#cf2880c7fbf2fe5f43e2235d309750790803efe1"
   integrity sha1-zyiAx/vy/l9D4iNdMJdQeQgD7+E=
 
-nativescript-toast@^1.4.6:
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/nativescript-toast/-/nativescript-toast-1.4.6.tgz#512464251028cf278c94cffcf65af8cc0f7ae4fa"
-  integrity sha1-USRkJRAozyeMlM/89lr4zA965Po=
+nativescript-toast@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/nativescript-toast/-/nativescript-toast-2.0.0.tgz#ef3245d0c35d50ca10da4554d1459356a99687aa"
+  integrity sha512-xqyNfFS894oGfrEVO7CjpioAQLiLNNcd77Euq9XIUTf1U3W0PsIgAJbLP7+kkVGIJxdLtlBkbcQ4wDmf2DCi1w==
 
 nativescript-ui-core@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/nativescript-ui-core/-/nativescript-ui-core-2.0.1.tgz#c59fee4d714d5138460b7aa98df217f1e02b643e"
   integrity sha512-6XeRrbp3cP7MFqny6TXpF8VVwhA5bfE2iC1RIB+YjEclK+gC1b+4iov4Yl8c4oP6CMQ40AfwU11R9cEsuRr81g==
 
-nativescript-ui-sidedrawer@^4.3.0:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/nativescript-ui-sidedrawer/-/nativescript-ui-sidedrawer-4.3.1.tgz#26eae68057483adb0c82283dc4358df4aed74eb6"
-  integrity sha512-jjuP2PwbbxrL1Rlkbbf0wGaY+xTWhkJpeeIb/aWvqTPgp45vlXv0GNwpUgKOoqkWeHdnfciypNE3VGJjouPbYg==
+nativescript-ui-sidedrawer@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-sidedrawer/-/nativescript-ui-sidedrawer-5.1.0.tgz#dcbe511481fb9804a9e38d581ffe39b52e2e4aa6"
+  integrity sha512-RUfMP3ixVvCkJxFInCrjHugxs3+zyTwSy3J2zUbVDIgkeiZDcb+Td0s+PLhTE+CCV0AkrHtPgX6CqrRaFEMa/A==
   dependencies:
     nativescript-ui-core "~2.0.0"
 
