@@ -1,0 +1,8 @@
+{
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "main": "main",
+  "name": "conduit-ns-vue-ts",
+  "version": "0.1.0"
+}
