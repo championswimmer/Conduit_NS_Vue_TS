@@ -6233,6 +6233,11 @@ vuex-module-decorators@^0.9.7:
   resolved "https://registry.yarnpkg.com/vuex-module-decorators/-/vuex-module-decorators-0.9.7.tgz#044350b183aec064c5c60626b0ab030d8ea68812"
   integrity sha512-wgd76R3XVP/3HkQihcN/OPkC9efe2lXmVodCxxdPE9YpDdaeDCYYEjLv4dStwz7XmuIoKP/tJKvyj0TX7jNpJg==
 
+vuex-router-sync@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/vuex-router-sync/-/vuex-router-sync-5.0.0.tgz#1a225c17a1dd9e2f74af0a1b2c62072e9492b305"
+  integrity sha512-Mry2sO4kiAG64714X1CFpTA/shUH1DmkZ26DFDtwoM/yyx6OtMrc+MxrU+7vvbNLO9LSpgwkiJ8W+rlmRtsM+w==
+
 vuex@^3.0.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.0.tgz#634b81515cf0cfe976bd1ffe9601755e51f843b9"
