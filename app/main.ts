@@ -1,6 +1,8 @@
 import Vue from 'nativescript-vue';
-import App from './components/App.vue';
+import App from './App.vue';
 import VueDevtools from 'nativescript-vue-devtools';
+
+import router from './router'
 
 if(TNS_ENV !== 'production') {
   Vue.use(VueDevtools);
@@ -13,6 +15,11 @@ Vue.registerElement(
   () => require('nativescript-ui-sidedrawer').RadSideDrawer
 )
 
+// Start from home page
+router.replace('/home')
+
 new Vue({
-  render: h => h('frame', [h(App)])
+  render: h => h('frame', [h(App)]),
+  router
 }).$start();
+
