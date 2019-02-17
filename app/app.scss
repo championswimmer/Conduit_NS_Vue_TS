@@ -2,12 +2,19 @@
 // @see https://docs.nativescript.org/ui/theme
 @import '~nativescript-theme-core/scss/forest';
 // Override variables here
+@import 'styles/conduit';
+
+$green: $conduit-green;
+$grey: $conduit-grey;
+
 @import '~nativescript-theme-core/scss/index';
 
 // Global SCSS styling
 // @see https://docs.nativescript.org/ui/styling
 
-$green: #5CB85C;
+* {
+  font-family: $conduit-font-family;
+}
 
 ActionBar {
   background-color: $green;
