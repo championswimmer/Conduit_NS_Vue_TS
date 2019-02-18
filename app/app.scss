@@ -16,6 +16,11 @@ $grey: $conduit-grey;
   font-family: $conduit-font-family;
 }
 
+
+.mdi, .mdi:before {
+  font-family: 'Material Design Icons', 'MaterialDesignIcons';
+}
+
 ActionBar {
   background-color: $green;
   color: white;

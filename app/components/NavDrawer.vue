@@ -2,7 +2,11 @@
   <StackLayout backgroundColor="#ffffff">
     <Label class="drawer-header" text="conduit"/>
 
-    <Label class="drawer-item" text="Item 1"/>
+    <StackLayout class="drawer-item" orientation="horizontal">
+      <Label class="mdi" :text="'mdi-home' | fonticon"/>
+      <Label text="Home"/>
+    </StackLayout>
+
     <Label class="drawer-item" text="Item 2"/>
     <Label class="drawer-item" text="Item 3"/>
   </StackLayout>
