@@ -3982,6 +3982,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-cardview@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/nativescript-cardview/-/nativescript-cardview-3.1.1.tgz#e041d81f1839a075fce3b70238f17cd02b016b9a"
+  integrity sha512-uaSf7mtoGqq5yHTDs79im8LIitB8DL6eoc6/9sCQTPfGnYklj04dzhb4MPvdqs077BFP+fAdD3z68VYr1zQ1sw==
+
 nativescript-dev-webpack@next:
   version "0.20.1-next-2019-02-08-133716-01"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-0.20.1-next-2019-02-08-133716-01.tgz#986c99e3d425851bb1dd657962cabebad4d3b607"

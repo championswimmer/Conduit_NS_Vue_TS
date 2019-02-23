@@ -5,7 +5,7 @@
         <Label text="Content for Tab 2"/>
       </TabViewItem>
       <TabViewItem title="Global Feed">
-        <Label text="Content for Tab 1"/>
+        <GlobalFeed/>
       </TabViewItem>
     </TabView>
   </StackLayout>
@@ -13,8 +13,11 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import GlobalFeed from './feed/GlobalFeed.vue'
 
-@Component
+@Component({
+  components: { GlobalFeed }
+})
 export default class Home extends Vue {
 
   created() {

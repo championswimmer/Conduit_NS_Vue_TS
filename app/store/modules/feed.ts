@@ -6,12 +6,12 @@ import { getArticles } from '@/api/realworld-api'
 
 @Module({ dynamic: true, store, name: 'feed', namespaced: true })
 class FeedModule extends VuexModule {
-  globalFeed: Article[]
+  globalFeed: Article[] | null = null
 
   @MutationAction({ mutate: ['globalFeed'] })
   async fetchGlobalFeed() {
     const articles =  await getArticles()
-    return {globalFeed: articles }
+    return { globalFeed: articles }
   }
 }
 

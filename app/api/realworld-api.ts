@@ -6,7 +6,7 @@ const BASE_URL = 'https://conduit.productionready.io/api'
 const client = new JsonHttpClient(BASE_URL)
 
 export async function getArticles(): Promise<Array<Article>> {
-  const resp = await client.get<ArticlesResponse>('articles')
+  const resp = await client.get<ArticlesResponse>('articles?limit=200')
   if (resp && resp.articles) {
     return resp.articles
   } else {
