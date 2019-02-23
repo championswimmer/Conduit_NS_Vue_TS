@@ -7,10 +7,10 @@
   "nativescript": {
     "id": "in.championswimmer.conduit.nsvuets",
     "tns-ios": {
-      "version": "5.0.0"
+      "version": "5.2.0"
     },
     "tns-android": {
-      "version": "5.0.0"
+      "version": "5.2.0"
     }
   },
   "scripts": {
