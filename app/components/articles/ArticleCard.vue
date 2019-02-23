@@ -2,7 +2,7 @@
   <CardView elevation="10" margin="10" radius="3">
     <StackLayout>
       <Label class="article-title" :text="article.title"></Label>
-      <Label class="article-body" :text="article.body"></Label>
+      <Label class="article-body" textWrap="true" :text="article.body"></Label>
     </StackLayout>
   </CardView>
 </template>

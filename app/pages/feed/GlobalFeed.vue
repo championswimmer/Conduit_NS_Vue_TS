@@ -1,6 +1,6 @@
 <template>
-  <StackLayout>
-    <ListView for="article in articles">
+  <StackLayout xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ListView for="article in articles" separatorColor="transparent">
       <v-template>
         <ArticleCard :article="article"></ArticleCard>
       </v-template>
