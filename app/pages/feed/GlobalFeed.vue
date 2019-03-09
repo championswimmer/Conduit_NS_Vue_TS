@@ -21,7 +21,7 @@ import { Article } from '@/api/models/articles'
 })
 export default class GlobalFeed extends Vue {
   get articles () {
-    return feedModule.globalFeed
+    return feedModule.globalFeed || []
   }
   async created () {
     await feedModule.fetchGlobalFeed()

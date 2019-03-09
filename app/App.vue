@@ -5,14 +5,14 @@
           v-if="$isAndroid"
           text="Menu"
           icon="res://ic_menu"
-          @tap="$refs.drawer.nativeView.toggleDrawerState()">
+          @tap="toggleDrawer()">
       </NavigationButton>
       <ActionItem
           v-else
           text="Menu"
           ios.position="left"
           icon="res://ic_menu"
-          @tap="$refs.drawer.nativeView.toggleDrawerState()">
+          @tap="toggleDrawer()">
       </ActionItem>
       <ActionItem
           v-show="$isIOS && showBack"
@@ -23,7 +23,7 @@
     </ActionBar>
 
     <RadSideDrawer ref="drawer">
-      <NavDrawer ~drawerContent ></NavDrawer>
+      <NavDrawer ~drawerContent v-on:drawer-click="toggleDrawer()"></NavDrawer>
 
       <StackLayout ~mainContent>
         <router-view></router-view>
@@ -42,6 +42,14 @@
   export default class App extends Vue {
     get showBack() {
       return (this.$store.state.route.fullPath.split('/').length > 2)
+    }
+
+    toggleDrawer() {
+      try {
+        (this.$refs.drawer as any).nativeView.toggleDrawerState()
+      } catch (e) {
+        console.error(e)
+      }
     }
   }
 </script>

@@ -25,7 +25,7 @@ Vue.prototype.$isIOS = isIOS
 
 // Start from home page
 sync(store, router)
-router.replace('/home')
+router.replace('/auth')
 
 new Vue({
   render: h => h('frame', [h(App)]),
